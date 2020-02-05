@@ -40,7 +40,7 @@ def total_gross(source)
   total = 0 
   index = 0 
   while index < source.length do 
-    total += gross_for_director
+    total += gross_for_director([source](index))
 end
   # Write this implementation
   #
