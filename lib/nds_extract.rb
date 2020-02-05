@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   directors_name = []
-  i = 1 
+  i = 0 
   while i < source.length do 
   directors_name.push(source[i][:name])
   i += 1 
